@@ -1,0 +1,67 @@
+body {
+	display: flex;
+	justify-content: center; /* выравнивание элементов по главной оси */
+	align-items: center; /* выравнивание элементов по перекрёстной оси */
+	min-height: 100vh; /* минимальная высота элемента */
+	background-color: #FAEFD8; /* фон всей страницы */
+}
+.form {
+	display: flex;
+	justify-content: center; /* выравнивание элементов по главной оси */
+	align-items: center; /* выравнивание элементов по перекрёстной оси */
+	flex-direction: column;
+	background-color: #9B978C;
+	border-radius: 5px; /* округление углов окошка авторизации */
+}
+.auth {
+	font-family: sans-serif; /* шрифт: без засечек */
+	font-size: 30px; /* размер шрифта */
+	color: #2C2869; /* цвет Authorization */
+	text-transform: uppercase; /* регистр текста: прописные */
+	padding: 0 20px; /* отступ */
+}
+.form input {
+	font-size: 18px;
+	padding: 5px;
+	margin: 1px 0;
+	outline-color: #2C2869;
+}
+.radio-button1 {
+	margin: 10px 162px 5px 0px
+}
+.radio-button2 {
+	margin: 5px 140px 10px 0px
+}
+}
+.forgot-p {
+	color: #4D4C4C;
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 5px 0;
+	transition: .2s;
+}
+.forgot-p:hover {
+	color: #656479;
+	border: none;
+}
+.form-btn {
+	font-size: 25px; /* размер шрифта */
+	text-transform: uppercase;
+	font-family: sans-serif; /* шрифт: без засечек */
+	font-weight: bold; /* начертание шрифта: полужирное */
+	margin-top: 5px; /* внешний отступ в верхней части элемента */
+	margin-bottom: 15px; /* внешний отступ внизу элемента */
+	padding: 5px 70px; /* отступ */
+	color: #FFF;
+	background: linear-gradient(25deg, #2C2869, #656479); /* стиль кнопки: градиент */
+	border: none; /* граница вокруг элемента */
+	outline: none;
+	border-radius: 5px; /* округление углов кнопки */
+}
+.form-btn:hover {
+	background: linear-gradient(25deg, #656479, #2C2869);
+}
+.form-btn:active {
+	background: linear-gradient(25deg, #2C2869, #656479);
+}
